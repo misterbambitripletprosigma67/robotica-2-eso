@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top 10 mejores equipos</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#fff;
+    color:#000;
+    line-height:1.6;
+}
+
+header{
+    background:#000;
+    color:#fff;
+    text-align:center;
+    padding:25px;
+}
+
+.logo{
+    font-size:3rem;
+}
+
+header h1{
+    margin-top:10px;
+}
+
+nav{
+    background:#111;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+main{
+    max-width:1200px;
+    margin:auto;
+    padding:30px 20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    border:2px solid #000;
+    border-radius:12px;
+    padding:20px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 15px rgba(0,0,0,0.15);
+}
+
+.icon{
+    font-size:4rem;
+    margin-bottom:10px;
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.card p{
+    margin-bottom:15px;
+}
+
+button{
+    background:#000;
+    color:#fff;
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#333;
+}
+
+footer{
+    margin-top:40px;
+    background:#000;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">⚽</div>
+    <h1>Top 10 mejores equipos</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">SECCION 1</a></li>
+        <li><a href="#">SECCION 2</a></li>
+        <li><a href="#">SECCION 3</a></li>
+    </ul>
+</nav>
+
+<main>
+    <div class="grid">
+
+        <div class="card">
+            <div class="icon">👑</div>
+            <h3>Real Madrid</h3>
+            <p>Uno de los clubes más exitosos y competitivos del mundo.</p>
+            <button>Ver más</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">🔵🔴</div>
+            <h3>FC Barcelona</h3>
+            <p>Equipo histórico con una gran cantera y estilo ofensivo.</p>
+            <button>Ver más</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">🔴⚪</div>
+            <h3>Arsenal</h3>
+            <p>Conjunto inglés destacado por su juego dinámico.</p>
+            <button>Ver más</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">🦁</div>
+            <h3>Manchester City</h3>
+            <p>Potencia europea con una plantilla llena de estrellas.</p>
+            <button>Ver más</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">⚫⚪</div>
+            <h3>Newcastle United</h3>
+            <p>Proyecto ambicioso que sigue creciendo temporada tras temporada.</p>
+            <button>Ver más</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">🔴</div>
+            <h3>Liverpool</h3>
+            <p>Club histórico inglés conocido por su intensidad y afición.</p>
+            <button>Ver más</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">🐍</div>
+            <h3>Inter de Milán</h3>
+            <p>Uno de los equipos más fuertes y consistentes de Italia.</p>
+            <button>Ver más</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">🟡⚫</div>
+            <h3>Borussia Dortmund</h3>
+            <p>Famoso por desarrollar jóvenes talentos y competir al máximo nivel.</p>
+            <button>Ver más</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">🦅</div>
+            <h3>Paris Saint-Germain</h3>
+            <p>Dominador habitual del fútbol francés con grandes figuras.</p>
+            <button>Ver más</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">🔴⚫</div>
+            <h3>AC Milan</h3>
+            <p>Club legendario que continúa luchando por títulos importantes.</p>
+            <button>Ver más</button>
+        </div>
+
+    </div>
+</main>
+
+<footer>
+    Bayron Lazo — 2º ESO
+</footer>
+
+</body>
+</html>
